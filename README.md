@@ -34,6 +34,25 @@ This Python script merges PDF files from a specified directory and its subdirect
 5. For each session subdirectory, it prompts the user to input the number of pieces needed for each part and merges the specified number of pieces.
 6. The merged PDF is saved as `Merged.pdf` in the main directory.
 
+## Directory Structure
+
+```
+Score Name/
+├── Percussion/
+│   ├── part1.pdf
+│   ├── part2.pdf
+│   └── ...
+├── Flute/
+│   ├── Score Name_Piccolo.pdf
+│   ├── Score Name_Flute_1.pdf
+│   └── ...
+├── Trumpet/
+│   ├── Score Name_Trumpet_1.pdf
+│   ├── Score Name_Trumpet_2.pdf
+│   └── ...
+└── ...
+```
+
 ## Notes
 
 - Ensure that the directory structure is correctly set up with subdirectories and PDF files.
